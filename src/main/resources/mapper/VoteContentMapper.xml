@@ -2,7 +2,7 @@
  <!DOCTYPE mapper
    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
      "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.bawei.dao.VoteContentDao" >
+<mapper namespace="com.bawei.cms.dao.VoteContentDao" >
    <select id="select" resultType="VoteContent">
      SELECT * FROM cms_cote_content
    </select>
